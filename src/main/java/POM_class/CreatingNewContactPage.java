@@ -111,11 +111,11 @@ public class CreatingNewContactPage {
 	 * @param mobile
 	 * @param mailingCity
 	 */
-	public void CreateNewContact(String lName,String email,String mobile,String mailingCity) {
+	public void CreateNewContact(String lName,String title,String email,String mobile) {
 		getLastNameTextField().sendKeys(lName);
+		getTitleTextField().sendKeys(title);
 		getEmailTextField().sendKeys(email);
 		getMobileTextField().sendKeys(mobile);
-		getMailingCityTextField().sendKeys(mailingCity);
 		getSaveButton().click();
 
 	}
