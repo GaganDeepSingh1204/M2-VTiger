@@ -10,7 +10,7 @@
     <classes>
       <class name="testCaseRepo.TC_003"/>
       <class name="testCaseRepo.TC_002"/>
-      <class name="testCaseRepo.TC_001"/>
+      <class name="testCaseRepo.TC_001Test"/>
       <class name="testCaseRepo.TC_006"/>
       <class name="testCaseRepo.TC_005"/>
       <class name="testCaseRepo.TC_004"/>
