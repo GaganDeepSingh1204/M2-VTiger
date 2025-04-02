@@ -10,7 +10,7 @@ import POM_class.LeadsPage;
 import genericUtility.BaseClass;
 
 @Listeners(genericUtility.ListenersImplementation.class)
-public class TC_001 extends BaseClass {
+public class TC_001Test extends BaseClass {
 	@Test(groups= {"Smoke","Regression"})
 	public void LE_001()throws Exception{
 		HomePage hp=new HomePage(driver);
