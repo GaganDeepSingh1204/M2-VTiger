@@ -23,6 +23,7 @@ public class TC_001Test extends BaseClass {
 		//Assert.fail();
 		CreatingNewLeadPage cnlp=new CreatingNewLeadPage(driver);
 		cnlp.createNewLead(fName,lName,company);
+		
 
 	}
 
